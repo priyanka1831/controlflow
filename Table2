@@ -1,0 +1,17 @@
+package controlflow;
+
+public class Table2 {
+
+	public static void main(String[] args) 
+		{
+			byte n=1;
+			
+			while(n<11)
+			{
+				System.out.println("2X "+n+" = " +2*n);
+				n++;
+			}
+		System.out.println("\"Hello\"");
+		}
+
+}
