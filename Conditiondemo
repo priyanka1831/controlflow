@@ -1,0 +1,35 @@
+package controlflow;
+
+import java.util.Scanner;
+
+public class Conditiondemo {
+	public static void main(String args[]){
+		//create input stream object
+		Scanner sc=new Scanner(System.in);
+		//declare three variables
+		int a,b,biggest;
+		//prompt the user or input a
+		System.out.println("Enter first number");
+		//accept number from keyboard and store it in a variable a 
+		a=sc.nextInt();
+		//prompt the user for input b
+		System.out.println("Enter second number:");
+		//accept number from keyboard and store it in variable b
+		b=sc.nextInt();
+		//use terinary operator to find out biggest number and to store it in avriable biggest
+		
+		if(a>b);
+		{  biggest=a;
+			System.out.println("Biggest is"+biggest);
+		} else if(b>a)
+		{  biggest=b;
+		System.out.println("Biggest is"+biggest);
+		}else
+			
+		}
+		
+	
+		
+		
+
+}
