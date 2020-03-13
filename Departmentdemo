@@ -1,0 +1,37 @@
+package controlflow;
+
+import java.util.Scanner;
+
+public class Departmentdemo {
+
+	public static void main(String[] args) {
+		//departments
+	String dept1="Operations";
+	String dept2="Sales";
+	String dept3="IT";
+	
+	//prompt for deprtment letter
+	System.out.println("Enter department letter (0/S/I):");
+	
+	//create input stream object
+	Scanner sc=new Scanner(System.in);
+	
+	char dept=sc.nextLine().toUpperCase().charAt(0);
+	
+	switch(dept)
+	{
+	case '0' : System.out.println(dept1);
+	case 'S' : System.out.println(dept2);
+	case 'I' : System.out.println(dept3);
+	default : System.out.println("Invalid Departmet!");
+	
+	
+	
+	}
+	
+	
+	
+
+	}
+
+}
